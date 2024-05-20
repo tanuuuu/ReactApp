@@ -1,0 +1,18 @@
+current directory: /Users/forushealth/Desktop/SpectoBle/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/forushealth/.rbenv/versions/2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/forushealth/Desktop/SpectoBle/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240422-1531-xgel4y sitelibdir\=./.gem.20240422-1531-xgel4y clean
+
+current directory: /Users/forushealth/Desktop/SpectoBle/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240422-1531-xgel4y sitelibdir\=./.gem.20240422-1531-xgel4y
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/forushealth/Desktop/SpectoBle/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240422-1531-xgel4y sitelibdir\=./.gem.20240422-1531-xgel4y install
+/opt/homebrew/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240422-1531-xgel4y
+
+current directory: /Users/forushealth/Desktop/SpectoBle/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240422-1531-xgel4y sitelibdir\=./.gem.20240422-1531-xgel4y clean

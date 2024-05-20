@@ -1,0 +1,6 @@
+module Pods_SpectoBle_SpectoBleTests {
+  umbrella header "Pods-SpectoBle-SpectoBleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

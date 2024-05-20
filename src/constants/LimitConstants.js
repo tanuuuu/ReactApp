@@ -1,0 +1,10 @@
+const LimitConstants = {
+    SPHERICAL_LIMIT: 8,
+    CYLINDRICAL_LIMIT: 6,
+    AXIS_LOWER_LIMIT: 0,
+    AXIS_UPPER_LIMIT: 180,
+    SPHERICAL_ADD_ON_PLUS_LIMIT: 17,
+    SPHERICAL_ADD_ON_MINUS_LIMIT: -18
+};
+
+export default LimitConstants;

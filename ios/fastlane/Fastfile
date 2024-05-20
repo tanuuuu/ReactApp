@@ -1,0 +1,28 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :build_development_ipa do
+    gym(
+      scheme: "SpectoBle",            # Replace "YourApp" with your app's scheme
+      configuration: "Debug",       # Use Debug configuration for development IPA
+      export_method: "development"  # Specify export method as development
+    )
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+end
